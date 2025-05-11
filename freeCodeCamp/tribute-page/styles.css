@@ -1,0 +1,86 @@
+/*
+Color scheme: #171738 #2E1760 #3423A6 #7180B9 #DFF3E4
+*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: #171738;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.25px;
+    background-color: #171738;
+    color: white;
+  }
+
+  #intro p {
+    text-align: center;
+    color: #2E1760;
+  }
+
+  figcaption {
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    color: #2E1760;
+  }
+
+  img {
+    display: block;
+  }
+
+  #image {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  #tribute-info, #bottom {
+    width: 80%;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+  #tribute-info {
+    margin-bottom: 1.5em;
+  }
+
+  .year {
+    font-weight: bold;
+  }
+
+  h3 {
+    padding: 0.5em 1em;
+    background-color: #3423A6;
+    color: white;
+  }
+
+  #bottom {
+    min-height: 5em;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+
+  .quote {
+    min-width: 60%;
+    padding: 1em 5%;
+    background-color: #DFF3E4;
+    font-style: italic;
+    line-height: 0.8em;
+  }
+
+  .learnmore {
+    padding: 1em 5%;
+    background-color: #7180B9;
+    color: white;
+  }
